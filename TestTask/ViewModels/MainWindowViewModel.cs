@@ -59,8 +59,5 @@ namespace TestTask.ViewModels
         public ObservableCollection<FunctionRowTable> CalculatedFunctions { get; }
             = new ObservableCollection<FunctionRowTable>();
 
-        private string _nameSelectedFunction;
-        /// <summary>Имя Функции для которой вводятся X и Y.</summary>
-        public string NameSelectedFunction { get => _nameSelectedFunction; private set => Set(ref _nameSelectedFunction, value); }
     }
 }
